@@ -1,0 +1,30 @@
+Tarea Semana 5 - Prueba de Rutas
+Estudiante: Jeimy Viviana Ladino Santiago
+Programa: Programadores Para La Paz
+
+Prueba de las rutas del servidor Express:
+
+--------------------------------------------------
+Ruta 1: http://localhost:3000
+--------------------------------------------------
+Al ingresar a esta dirección en el navegador, el servidor responde con el
+texto: "Servidor activo". Esta es la ruta principal o raíz del servidor.
+Indica que el servidor está funcionando correctamente y listo para recibir
+solicitudes.
+
+--------------------------------------------------
+Ruta 2: http://localhost:3000/saludo
+--------------------------------------------------
+Al ingresar a esta ruta, el servidor responde con el texto: "Hola comunidad".
+Esta ruta está definida como un endpoint GET /saludo y devuelve un mensaje
+de bienvenida fijo para todos los usuarios que accedan a ella.
+
+--------------------------------------------------
+Ruta 3: http://localhost:3000/mensaje/juan
+--------------------------------------------------
+Al ingresar a esta ruta, el servidor responde con el texto: "Hola juan".
+Esta ruta usa un parámetro dinámico llamado :nombre, que toma el valor
+que se escriba en la URL (en este caso "juan") y lo incluye en la respuesta.
+Si se cambia "juan" por otro nombre, por ejemplo /mensaje/maria, el servidor
+respondería "Hola maria". Esto demuestra cómo Express permite rutas dinámicas
+con parámetros variables.

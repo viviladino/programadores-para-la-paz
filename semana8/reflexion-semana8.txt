@@ -1,0 +1,22 @@
+Reflexión - Semana 8
+Jeimy Viviana Ladino Santiago
+Programadores Para La Paz
+==========================
+
+La seguridad digital es una responsabilidad que va más allá de lo técnico: es también
+una responsabilidad ética y comunitaria. Cuando una plataforma tecnológica está pensada
+para que ciudadanos reporten incidencias, participen en procesos colectivos o compartan
+información sensible, protegerla se convierte en un acto de cuidado hacia esas personas.
+
+En el contexto de Programadores Para La Paz, construir tecnología segura significa
+garantizar que quienes usan las plataformas puedan hacerlo con confianza, sabiendo que
+sus datos no serán expuestos, manipulados o utilizados en su contra. Una brecha de
+seguridad en una herramienta comunitaria no solo daña la plataforma: puede poner en
+riesgo a las personas que confían en ella, especialmente en entornos vulnerables.
+
+Linux y la terminal son herramientas fundamentales en este camino porque permiten
+administrar servidores con control total, transparencia y sin depender de software
+privativo. Aprender a moverse con seguridad en un sistema Linux, conocer el entorno
+donde corre nuestra aplicación y aplicar buenas prácticas desde el principio son pasos
+esenciales para construir plataformas participativas que sean confiables, justas y
+sostenibles para las comunidades que las necesitan.

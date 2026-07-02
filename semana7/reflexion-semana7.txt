@@ -1,0 +1,19 @@
+Reflexión - Semana 7
+====================
+
+Que las comunidades puedan registrar y consultar reportes en una plataforma tecnológica
+es un avance significativo hacia una gestión más participativa y transparente del territorio.
+Cuando los ciudadanos tienen la posibilidad de reportar incidencias de forma digital,
+se elimina la barrera de tener que acudir presencialmente a una oficina, lo que aumenta
+la cantidad y oportunidad de la información que reciben las autoridades.
+
+Además, al poder consultar los reportes ya registrados, los habitantes de una comunidad
+pueden conocer qué problemas han sido reportados, evitar duplicados y hacer seguimiento
+al estado de sus solicitudes. Esto genera confianza en las instituciones y fomenta la
+cultura de participación ciudadana responsable.
+
+Desde el punto de vista técnico, una API con rutas GET y POST como la construida esta
+semana es el fundamento de ese tipo de plataformas. El GET permite transparencia al
+mostrar la información disponible, mientras que el POST habilita la participación activa
+de cada ciudadano. A medida que se incorporen bases de datos y autenticación, este mismo
+esquema puede escalar a soluciones reales que mejoren la calidad de vida en las comunidades.

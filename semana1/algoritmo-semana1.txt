@@ -1,0 +1,30 @@
+Algoritmo - Semana 1
+Estudiante: Jeimy Viviana Ladino Santiago
+Curso: Programadores Para La Paz
+
+Pregunta 5:
+Algoritmo para compartir información confiable en internet (mínimo 6 pasos):
+
+Paso 1: Buscar la información en fuentes reconocidas (medios de comunicación oficiales,
+        instituciones educativas, organismos gubernamentales o científicos).
+
+Paso 2: Revisar la fuente que publica la información: verificar que sea un sitio legítimo,
+        con autor identificable, fecha de publicación y referencias claras.
+
+Paso 3: Confirmar la noticia contrastando la misma información en al menos dos o tres
+        fuentes independientes para validar que los datos coincidan.
+
+Paso 4: Evaluar si la información está actualizada, descartando contenidos desactualizados
+        que puedan generar confusión o ser malinterpretados en el contexto actual.
+
+Paso 5: Reflexionar sobre el impacto de compartir dicha información, preguntándose si
+        puede causar daño, generar pánico innecesario o difundir estereotipos.
+
+Paso 6: Redactar o adaptar el mensaje de forma clara, citando la fuente original para
+        que quien lo reciba pueda verificarla por su propia cuenta.
+
+Paso 7: Publicar o compartir la información en la plataforma adecuada, eligiendo el
+        canal apropiado según la audiencia (redes sociales, grupos de WhatsApp, foros, etc.).
+
+Paso 8: Estar dispuesto a corregir o eliminar la publicación si posteriormente se
+        descubre que la información era incorrecta o incompleta.

@@ -1,0 +1,22 @@
+Reflexión Semana 2 - El valor de la terminal para un desarrollador
+Estudiante: Jeimy Viviana Ladino Santiago
+
+Saber usar la terminal es una habilidad fundamental para cualquier desarrollador,
+porque permite interactuar directamente con el sistema operativo de manera rápida
+y precisa, sin depender de interfaces gráficas que a veces limitan las posibilidades.
+
+A través de la terminal, un desarrollador puede navegar entre carpetas, crear y
+organizar archivos, ejecutar programas y automatizar tareas repetitivas con simples
+comandos, lo que ahorra tiempo y reduce errores en el flujo de trabajo.
+
+Además, en el mundo del desarrollo profesional, muchos servidores y entornos de
+producción no tienen interfaz gráfica, por lo que dominar la terminal se convierte
+en una necesidad real y no solo en una opción adicional.
+
+Aprender a organizar archivos desde la terminal también fomenta el orden y la
+disciplina en los proyectos, facilitando el trabajo en equipo y la comprensión
+del código por parte de otros desarrolladores.
+
+Por todo esto, considero que la terminal no es solo una herramienta técnica, sino
+un lenguaje que todo programador debe aprender para comunicarse con el sistema y
+construir soluciones de forma eficiente y profesional.

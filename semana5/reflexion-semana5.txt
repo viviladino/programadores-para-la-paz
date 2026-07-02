@@ -1,0 +1,24 @@
+Tarea Semana 5 - Reflexión de la Semana
+Estudiante: Jeimy Viviana Ladino Santiago
+Programa: Programadores Para La Paz
+
+¿Cómo podrían las APIs ayudar a que las comunidades compartan información,
+reportes o alertas de manera organizada?
+
+Las APIs representan una herramienta poderosa para transformar la manera
+en que las comunidades se comunican y organizan su información. A través
+de una API bien diseñada, los habitantes de un barrio o municipio podrían
+reportar problemas como daños en infraestructura, alertas de seguridad o
+necesidades urgentes desde sus celulares, sin necesidad de desplazarse
+físicamente. Toda esa información llegaría de manera estructurada a un
+servidor central donde los líderes comunitarios o funcionarios encargados
+podrían consultarla, clasificarla y atenderla con mayor rapidez. Además,
+las APIs permiten que diferentes aplicaciones se conecten entre sí, por
+ejemplo, una app de reportes ciudadanos podría integrarse con plataformas
+de mapas para visualizar en tiempo real dónde se concentran los problemas.
+Esto favorece la transparencia, ya que los propios ciudadanos pueden hacer
+seguimiento al estado de sus reportes. En comunidades rurales o vulnerables,
+donde el acceso a servicios presenciales es limitado, las APIs son un puente
+digital que acerca a las personas con quienes toman decisiones. En conclusión,
+las APIs no son solo una herramienta técnica, sino un instrumento de
+participación ciudadana y construcción de comunidad en la era digital.

@@ -1,0 +1,24 @@
+Prueba de la ruta POST /registro
+================================
+
+Se envió una petición POST a http://localhost:3000/registro con el siguiente cuerpo en formato JSON:
+
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta del servidor:
+El servidor respondió con un objeto JSON con estado HTTP 200 (OK):
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+- El middleware express.json() interpretó el cuerpo de la petición y lo dejó disponible en req.body.
+- La ruta /registro leyó req.body.nombre y req.body.mensaje.
+- El servidor devolvió un JSON confirmando que los datos fueron recibidos correctamente,
+  incluyendo los valores enviados por el cliente junto con el campo "estado".

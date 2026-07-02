@@ -1,0 +1,25 @@
+Reflexión Semana 4 — Jeimy Viviana Ladino Santiago
+Programadores Para La Paz
+
+¿Por qué es importante que las comunidades o iniciativas ciudadanas puedan construir
+herramientas tecnológicas propias utilizando tecnologías abiertas como Node.js?
+
+Es fundamental que las comunidades y organizaciones ciudadanas tengan acceso y dominio
+de tecnologías abiertas como Node.js, porque esto les permite construir sus propias
+herramientas sin depender de grandes corporaciones ni pagar costosas licencias de software.
+Cuando una comunidad puede desarrollar sus propias soluciones tecnológicas, recupera el
+control sobre sus datos, sus procesos y su información, lo cual es un acto de soberanía
+digital muy poderoso.
+
+En contextos como el colombiano, donde muchas iniciativas sociales trabajan con recursos
+limitados, contar con tecnología de código abierto significa que el dinero que se ahorraría
+en licencias puede invertirse directamente en las personas y en los proyectos de impacto
+social. Además, herramientas como Node.js permiten que personas de diferentes regiones,
+incluso sin formación universitaria formal, puedan aprender a programar y crear soluciones
+locales a problemas locales.
+
+La tecnología abierta también fomenta la colaboración y el aprendizaje colectivo: cuando
+el código es abierto, otras personas pueden revisarlo, mejorarlo y adaptarlo a sus propias
+necesidades. Esto construye comunidad y conocimiento compartido. Finalmente, para una
+iniciativa como Programadores Para La Paz, dominar estas herramientas es una forma concreta
+de demostrar que la paz también se construye con acceso equitativo al conocimiento tecnológico.

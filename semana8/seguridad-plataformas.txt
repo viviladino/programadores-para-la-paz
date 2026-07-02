@@ -1,0 +1,28 @@
+5 prácticas de seguridad para plataformas digitales comunitarias
+================================================================
+
+1. No exponer datos personales de los ciudadanos
+   Los reportes e incidencias registradas por la comunidad pueden contener información
+   sensible. Es necesario evitar mostrar datos como nombres, direcciones o teléfonos
+   en respuestas públicas de la API y limitar su acceso solo a usuarios autorizados.
+
+2. Proteger credenciales y claves de acceso
+   Las contraseñas, tokens y claves de API nunca deben escribirse directamente en el
+   código fuente. Deben almacenarse en variables de entorno o archivos de configuración
+   excluidos del repositorio mediante .gitignore.
+
+3. Usar conexiones seguras (HTTPS)
+   Toda comunicación entre el ciudadano y la plataforma debe estar cifrada mediante
+   HTTPS. Esto impide que terceros intercepten la información durante la transmisión,
+   protegiendo tanto los reportes enviados como las respuestas del servidor.
+
+4. Registrar accesos y actividad sospechosa
+   La plataforma debe llevar un registro (log) de quién accede, cuándo y desde dónde.
+   Esto permite detectar intentos de acceso no autorizados y actuar rápidamente ante
+   posibles incidentes de seguridad.
+
+5. Limitar el acceso a información y funciones sensibles
+   No todos los usuarios deben poder ver o modificar toda la información. Se deben
+   definir roles y permisos: un ciudadano puede registrar un reporte, pero solo un
+   administrador puede eliminarlo o cambiar su estado. Esto reduce el riesgo de uso
+   indebido de la plataforma.

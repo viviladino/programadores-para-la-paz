@@ -1,0 +1,64 @@
+Prueba de las rutas GET y POST en /reportes
+============================================
+
+Paso 1 — Enviar un reporte con POST
+Se envió una petición POST a http://localhost:3000/reportes con el siguiente JSON:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+}
+
+El servidor creó el objeto reporte, le asignó el id 1 automáticamente (basado en la
+longitud del array), lo guardó en el array reportes y devolvió una confirmación.
+
+Paso 2 — Enviar un segundo reporte con POST
+Se envió otro JSON:
+
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
+
+Respuesta del servidor:
+{
+  "mensaje": "Reporte registrado",
+  "reporte": {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+}
+
+Paso 3 — Consultar los reportes con GET
+Se envió una petición GET a http://localhost:3000/reportes.
+
+Respuesta del servidor:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  },
+  {
+    "id": 2,
+    "tipo": "Ambiente",
+    "descripcion": "Acumulación de residuos en una zona comunitaria"
+  }
+]
+
+Explicación:
+- El GET devuelve el array completo de reportes almacenados en memoria.
+- Cada vez que se registra un reporte con POST, se agrega al array y el id se incrementa.
+- Si el servidor se reinicia, el array queda vacío porque los datos solo viven en memoria
+  y no se están guardando en una base de datos.

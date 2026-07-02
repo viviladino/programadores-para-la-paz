@@ -1,0 +1,22 @@
+Reflexión - Semana 9
+Jeimy Viviana Ladino Santiago
+Programadores Para La Paz
+==========================
+
+Que una plataforma tecnológica comunitaria funcione de manera estable y segura no
+es un lujo técnico, sino una condición mínima para que sea útil y confiable. Cuando
+ciudadanos o comunidades dependen de una plataforma para reportar incidencias, acceder
+a información o participar en procesos colectivos, cualquier falla del servidor puede
+significar que una voz no sea escuchada o que un reporte urgente no llegue a tiempo.
+
+La estabilidad del servidor garantiza que el servicio esté disponible cuando se
+necesita, sin interrupciones inesperadas. Esto requiere monitorear el proceso,
+registrar errores mediante logs y tener mecanismos de reinicio automático en caso
+de fallos. Sin estos elementos, la plataforma puede caerse silenciosamente sin que
+nadie lo note hasta que sea demasiado tarde.
+
+La seguridad, por su parte, protege la integridad de los datos ciudadanos y la
+confianza en el sistema. En el contexto de Programadores Para La Paz, construir
+servidores bien configurados, con puertos controlados, acceso restringido y registros
+activos, es una forma concreta de honrar el compromiso ético de usar la tecnología
+para proteger a las personas y fortalecer la participación comunitaria responsable.

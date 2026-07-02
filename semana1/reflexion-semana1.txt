@@ -1,0 +1,19 @@
+Reflexión - Semana 1
+Estudiante: Jeimy Viviana Ladino Santiago
+Curso: Programadores Para La Paz
+
+Pregunta 4:
+¿Qué relación encuentras entre el uso responsable de la información en internet,
+la participación ciudadana y la organización del trabajo técnico con herramientas como Git?
+
+El uso responsable de la información en internet es la base de una ciudadanía digital activa y ética.
+Cuando verificamos lo que consumimos y compartimos, contribuimos a construir entornos digitales más
+confiables, lo cual fortalece directamente la participación ciudadana, ya que las decisiones colectivas
+dependen de que la información que circula sea verdadera y de calidad. Así como un ciudadano responsable
+contrasta fuentes antes de opinar, un programador responsable documenta y organiza su trabajo para que
+otros puedan entenderlo y mejorarlo. Aquí entra Git: esta herramienta permite registrar cada cambio en
+un proyecto, mantener un historial claro y colaborar de forma ordenada, valores que también aplican al
+ejercicio ciudadano. Compartir código en GitHub es, en esencia, un acto de transparencia y participación,
+igual que publicar información verificada en comunidad. En conclusión, ser ciudadano digital responsable
+y ser buen desarrollador comparten el mismo principio: actuar con honestidad, orden y pensamiento crítico
+para beneficiar al colectivo.

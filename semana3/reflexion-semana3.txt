@@ -1,0 +1,19 @@
+Reflexión Semana 3 - La importancia del control de versiones en el software
+Estudiante: Jeimy Viviana Ladino Santiago
+
+Mantener un registro de cambios en un proyecto de software usando Git es fundamental
+porque permite saber exactamente qué se modificó, cuándo y por qué, lo que convierte
+el historial del proyecto en una bitácora confiable de todo el proceso de desarrollo.
+
+Sin esta trazabilidad, cuando ocurre un error sería casi imposible identificar en qué
+momento se introdujo el problema o qué cambio lo provocó. Git permite regresar a una
+versión anterior del proyecto con un simple comando, lo que reduce enormemente el
+riesgo de perder trabajo o romper funcionalidades que ya estaban funcionando.
+
+Además, en equipos de trabajo donde varias personas editan el mismo proyecto al mismo
+tiempo, Git es la herramienta que evita que los cambios de una persona sobreescriban
+el trabajo de otra, gestionando de forma ordenada todas las contribuciones al código.
+
+Aprender a usar Git desde el inicio de mi formación me hace entender que programar
+no es solo escribir código, sino también documentar y organizar ese proceso de manera
+profesional, tal como lo hacen los desarrolladores en el mundo real.

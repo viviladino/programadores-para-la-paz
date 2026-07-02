@@ -1,0 +1,23 @@
+Reflexión - Semana 6
+====================
+
+Recibir reportes e información ciudadana de forma estructurada es fundamental para construir
+plataformas tecnológicas útiles y eficientes. Cuando los datos llegan organizados mediante
+formatos como JSON, los sistemas pueden procesarlos automáticamente sin necesidad de
+interpretación manual, lo que reduce errores y ahorra tiempo.
+
+En el contexto comunitario, esto significa que cualquier ciudadano puede reportar una
+incidencia, como una falla en el alumbrado o un daño en la vía pública, y esa información
+llega directamente al sistema de forma clara y estandarizada. Esto facilita que las
+autoridades o administradores puedan clasificar, priorizar y atender los problemas con mayor
+rapidez y precisión.
+
+Además, la estructuración de datos permite generar estadísticas y reportes automáticos,
+identificar zonas con mayor número de incidencias y tomar decisiones basadas en evidencia
+real. Sin esta organización, la información llegaría de forma caótica y sería muy difícil
+de gestionar a escala.
+
+En definitiva, tecnologías como Node.js y Express nos permiten construir los cimientos de
+servicios ciudadanos digitales que conectan a las comunidades con quienes tienen la
+responsabilidad de atender sus necesidades, haciendo los procesos más transparentes,
+accesibles y efectivos para todos.

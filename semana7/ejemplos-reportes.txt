@@ -1,0 +1,26 @@
+Ejemplos de reportes ciudadanos para el sistema
+================================================
+
+Ejemplo 1:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Ejemplo 2:
+{
+  "tipo": "Ambiente",
+  "descripcion": "Acumulación de residuos en una zona comunitaria"
+}
+
+Ejemplo 3 (adicional):
+{
+  "tipo": "Seguridad",
+  "descripcion": "Presencia de personas en actitud sospechosa cerca del parque principal en horas de la noche."
+}
+
+Ejemplo 4 (adicional):
+{
+  "tipo": "Movilidad",
+  "descripcion": "Semáforo averiado en la intersección de la carrera 5 con calle 10, generando riesgo de accidentes."
+}

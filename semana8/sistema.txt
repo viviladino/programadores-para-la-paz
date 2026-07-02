@@ -1,0 +1,36 @@
+Comandos de identificación del sistema
+=======================================
+
+Comando: uname -a
+------------------
+Muestra información completa del sistema operativo. Al ejecutarlo se obtuvo:
+Linux vm 6.18.5 #1 SMP PREEMPT_DYNAMIC x86_64 x86_64 x86_64 GNU/Linux
+
+Esto incluye:
+- Nombre del sistema operativo: Linux
+- Nombre del host (máquina): vm
+- Versión del kernel: 6.18.5
+- Tipo de arquitectura del procesador: x86_64 (64 bits)
+
+Este comando es útil porque permite verificar que el servidor está corriendo la versión
+correcta del sistema operativo y confirmar la arquitectura, lo cual es necesario para
+instalar software compatible.
+
+Comando: whoami
+---------------
+Muestra el nombre del usuario que está ejecutando los comandos en la terminal.
+En este caso devolvió: root
+
+Conocer el usuario activo es importante porque en un servidor de producción no se
+recomienda operar como usuario root por razones de seguridad. Si alguien ejecuta
+accidentalmente un comando destructivo como root, el sistema no tendrá restricciones
+para detenerlo. Por eso, una buena práctica es crear usuarios con permisos limitados
+y reservar root solo para tareas de administración específicas.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+----------------------------------------------------------------------
+Cuando se administra un servidor que aloja una plataforma comunitaria como la de
+Programadores Para La Paz, conocer el sistema operativo, su versión y el usuario
+activo permite tomar decisiones correctas de configuración, aplicar parches de
+seguridad oportunos y evitar errores que comprometan la estabilidad del servicio.
+Un administrador que desconoce su entorno no puede protegerlo adecuadamente.

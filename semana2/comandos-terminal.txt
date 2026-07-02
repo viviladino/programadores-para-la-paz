@@ -1,0 +1,33 @@
+Comandos utilizados durante la actividad - Semana 2
+Estudiante: Jeimy Viviana Ladino Santiago
+
+# Verificar ubicación actual en el sistema
+pwd
+
+# Listar archivos y carpetas del directorio actual
+ls
+
+# Ver archivos con detalles (permisos, tamaño, fecha)
+ls -la
+
+# Crear la carpeta de la semana
+mkdir semana2
+
+# Entrar a la carpeta semana2
+cd semana2
+
+# Crear los archivos requeridos
+touch preguntas-semana2.txt
+touch comandos-terminal.txt
+touch reflexion-semana2.txt
+
+# Volver a la carpeta anterior
+cd ..
+
+# Verificar que la carpeta fue creada correctamente
+ls semana2
+
+# Registrar cambios en Git
+git add .
+git commit -m "Actividad semana 2"
+git push

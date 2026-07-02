@@ -1,0 +1,34 @@
+Componentes de un entorno servidor
+====================================
+
+1. Sistema operativo
+---------------------
+Es la base sobre la que corre todo lo demás. En este caso Linux (Ubuntu) gestiona
+los recursos del hardware como la memoria, el procesador y la red, y permite que
+Node.js y la aplicación se ejecuten de forma estable y segura.
+
+2. Node.js
+-----------
+Es el entorno de ejecución que permite correr código JavaScript fuera del navegador,
+directamente en el servidor. Node.js interpreta el archivo server.js, maneja las
+solicitudes HTTP y administra el ciclo de vida del proceso del servidor.
+
+3. Aplicación server.js
+------------------------
+Es el código que define el comportamiento del servidor: qué rutas existen, qué
+respuesta enviar ante cada solicitud y en qué puerto escuchar. Sin este archivo,
+Node.js no sabría qué hacer con las peticiones que llegan.
+
+4. Puerto
+----------
+Es el canal de comunicación por el que el servidor recibe las solicitudes. En esta
+práctica se usa el puerto 3000. Cuando un cliente accede a http://localhost:3000,
+el sistema operativo dirige esa solicitud al proceso de Node.js que está escuchando
+en ese puerto específico.
+
+5. Logs
+--------
+Son registros que documentan la actividad del servidor: qué solicitudes llegaron,
+cuándo, qué errores ocurrieron y qué respuestas se enviaron. Los logs son esenciales
+para detectar problemas, auditar el uso de la plataforma y garantizar la estabilidad
+y seguridad del servicio en el tiempo.

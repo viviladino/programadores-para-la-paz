@@ -1,0 +1,40 @@
+Tarea Semana 5 - Conceptos de API
+Estudiante: Jeimy Viviana Ladino Santiago
+Programa: Programadores Para La Paz
+
+--------------------------------------------------
+¿Qué hace la ruta POST /reporte?
+--------------------------------------------------
+La ruta POST /reporte recibe datos enviados por el usuario a través del
+cuerpo (body) de la solicitud HTTP. Específicamente, espera recibir un
+campo llamado "mensaje" en formato JSON. Cuando el servidor recibe esa
+información, responde con un objeto JSON que contiene dos campos:
+- "estado": confirma con el texto "Reporte recibido" que la solicitud
+  llegó correctamente al servidor.
+- "mensaje": devuelve el mismo mensaje que envió el usuario, permitiendo
+  verificar que los datos fueron recibidos correctamente.
+
+A diferencia de las rutas GET que solo devuelven información, esta ruta
+POST permite que el cliente envíe datos al servidor para que los procese.
+Esta ruta no se puede probar directamente desde el navegador escribiendo
+la URL, ya que el navegador solo realiza solicitudes GET por defecto.
+Para probarla se necesita una herramienta como Postman, Thunder Client
+o código JavaScript con fetch().
+
+--------------------------------------------------
+¿Para qué podría servir en una aplicación comunitaria?
+--------------------------------------------------
+En una aplicación comunitaria, esta ruta POST /reporte podría servir para
+que los habitantes de un barrio o comunidad envíen reportes o alertas al
+servidor sobre situaciones importantes, como por ejemplo:
+
+- Reportar un problema de servicios públicos (agua, luz, alcantarillado).
+- Enviar alertas de seguridad sobre situaciones sospechosas en el barrio.
+- Notificar daños en vías, parques u otras zonas comunes.
+- Registrar quejas o sugerencias ante la junta de acción comunal.
+- Enviar solicitudes de ayuda o emergencia a los líderes comunitarios.
+
+Cada reporte enviado podría almacenarse en una base de datos para que los
+administradores o líderes comunitarios los consulten, prioricen y atiendan
+de manera organizada. De esta forma, la comunidad tiene un canal digital
+formal y estructurado para comunicarse y gestionar sus necesidades.
