@@ -10,7 +10,7 @@ Comprometido con el uso ético y responsable de la tecnología para construir un
 
 ## 🎯 Objetivo del Repositorio
 
-Este repositorio documenta mi proceso de aprendizaje en **Semana 1, Semana 2, Semana 3, Semana 4, Semana 5, Semana 6 y Semana 7**, donde se trabajaron los conceptos fundamentales de:
+Este repositorio documenta mi proceso de aprendizaje en **Semana 1, Semana 2, Semana 3, Semana 4, Semana 5, Semana 6, Semana 7, Semana 8 y Semana 9**, donde se trabajaron los conceptos fundamentales de:
 
 - **Ciudadanía Digital**
 - **Uso responsable de la información**
@@ -64,60 +64,6 @@ programadores-para-la-paz/
 └── .gitignore
 ```
 
-## ✅ Temas trabajados en Semana 1
-
-- **Ciudadanía Digital**: Uso responsable, ético y consciente de las tecnologías.
-- **Verificación de información**: Combate a la desinformación en internet.
-- **Algoritmos**: Pensamiento computacional y pasos ordenados para resolver problemas.
-- **Git & GitHub**: Control de versiones, commits, push y trabajo colaborativo.
-
-## ✅ Temas trabajados en Semana 2
-
-- **Uso de la terminal**: Navegación, creación de archivos y ejecución de comandos básicos.
-- **Comandos esenciales**: pwd, ls, mkdir, touch, cd.
-- **Flujos de trabajo con Git**: git add, commit y push para subir cambios a un repositorio remoto.
-
-## ✅ Temas trabajados en Semana 3
-
-- **Conceptos básicos de Git**:
-  - Repositorio (local y remoto)
-  - Commit (instantánea de cambios)
-  - Push (envío de commits al repositorio remoto)
-
-## ✅ Temas trabajados en Semana 4
-
-- **Node.js**: Entorno de ejecución de JavaScript en el servidor.
-- **npm / pnpm**: Inicialización de proyectos y gestión de dependencias con `pnpm init` y `pnpm add`.
-- **Express**: Framework para construir servidores y APIs en Node.js.
-- **Servidor básico**: Creación de rutas y respuesta a solicitudes HTTP desde el navegador.
-- **Puerto 3000**: Despliegue local y verificación en `http://localhost:3000`.
-
-## ✅ Temas trabajados en Semana 5
-
-- **APIs REST**: Interfaces que permiten que aplicaciones o sistemas se comuniquen entre sí.
-- **Métodos HTTP**: Uso de `GET` para consultar información y `POST` para enviar datos al servidor.
-- **Rutas en Express**: Implementación de rutas como `/`, `/saludo`, `/mensaje/:nombre` y `/reporte`.
-- **Parámetros dinámicos**: Uso de `req.params` en rutas como `/mensaje/:nombre`.
-- **JSON en el body**: Recepción de datos enviados mediante `POST /reporte` con `express.json()`.
-- **Aplicación comunitaria**: Diseño conceptual de reportes ciudadanos para alertas, servicios públicos, seguridad y necesidades urgentes.
-
-## ✅ Temas trabajados en Semana 6
-
-- **JSON**: Formato de intercambio de datos entre aplicaciones.
-- **Middleware `express.json()`**: Lectura e interpretación de cuerpos JSON en peticiones HTTP.
-- **Manejo de `req.body`**: Extracción de datos enviados por el cliente en solicitudes `POST`.
-- **Endpoint `/registro`**: Recepción de `nombre` y `mensaje` desde un JSON.
-- **Endpoint `/incidencia`**: Registro de incidencias ciudadanas con `tipo` y `descripcion`.
-- **Reportes estructurados**: Uso de datos organizados para clasificar, priorizar y atender problemas comunitarios.
-
-## ✅ Temas trabajados en Semana 7
-
-- **Arrays en programación**: Almacenamiento temporal de múltiples reportes en una lista.
-- **Endpoint `GET /reportes`**: Consulta de reportes registrados en memoria.
-- **Endpoint `POST /reportes`**: Creación de nuevos reportes con `id`, `tipo` y `descripcion`.
-- **Persistencia en memoria**: Los reportes se almacenan en un array mientras el servidor está activo.
-- **Transparencia comunitaria**: Consulta de reportes para evitar duplicados y hacer seguimiento a solicitudes.
-- **Escalabilidad**: Posible incorporación futura de bases de datos y autenticación.
 
 ## 🔗 Enlaces a las actividades
 
@@ -128,6 +74,8 @@ programadores-para-la-paz/
 - [Semana 5](./semana5/)
 - [Semana 6](./semana6/)
 - [Semana 7](./semana7/)
+- [Semana 8](./semana8/)
+- [Semana 9](./semana9/)
 
 ## 🚀 Habilidades demostradas
 
