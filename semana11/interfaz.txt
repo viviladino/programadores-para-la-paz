@@ -1,0 +1,10 @@
+Interfaz básica - Plataforma comunitaria
+Estudiante: Jeimy Viviana Ladino Santiago
+
+La interfaz tendría una sección para crear una nueva causa comunitaria, con un formulario que incluye título, descripción y fecha. Este formulario solo estaría disponible para usuarios autenticados.
+
+También tendría una vista principal con la lista de causas disponibles, mostrando título, descripción resumida, fecha y estado, para que cualquier ciudadano pueda leerlas y conocer las iniciativas activas.
+
+Cada causa mostrada tendría un botón de "Apoyar" y, junto a él, un contador que indica cuántas personas la han apoyado hasta el momento. Al presionar el botón, se registra el apoyo asociado al usuario autenticado y el contador se actualiza.
+
+La interfaz debe ser clara y sencilla: colores neutros, tipografía legible, botones bien identificados y sin sobrecargar la pantalla de información. No debe mostrar información privada de los usuarios, solo el nombre público o alias de quien apoya, nunca datos de contacto ni identificación personal.

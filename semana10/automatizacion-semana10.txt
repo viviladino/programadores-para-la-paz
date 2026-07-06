@@ -1,0 +1,24 @@
+Automatización simple con n8n y Telegram
+Estudiante: Jeimy Viviana Ladino Santiago
+
+¿Qué evento activa el flujo?
+La creación de un nuevo reporte de incidencia en el sistema (por ejemplo, cuando un ciudadano llena un formulario de registro y se guarda un nuevo registro en la base de datos o en una hoja de cálculo conectada a n8n).
+
+¿Qué mensaje se enviaría a Telegram?
+"Nuevo reporte recibido. Tipo: [categoría]. Estado: pendiente de revisión. Ingresar al panel para más detalles."
+
+Flujo general:
+1. Trigger: nuevo registro detectado (webhook o polling sobre la fuente de datos).
+2. Nodo n8n: formatea el mensaje usando solo el tipo de incidencia y un identificador interno (no datos personales).
+3. Nodo n8n: envía el mensaje al canal/grupo de Telegram del equipo de coordinación.
+4. Nodo n8n (opcional): registra en un log interno que la notificación fue enviada correctamente.
+
+¿Qué información no debería enviarse por seguridad?
+- Nombres completos de las personas involucradas.
+- Números de documento de identidad.
+- Direcciones exactas o ubicaciones sensibles.
+- Números de teléfono o correos personales.
+- Tokens de Telegram, claves de API o credenciales.
+- Cualquier archivo .env o variable de entorno del proyecto.
+
+Solo se envía información no sensible: tipo de incidencia, número de caso interno y estado.

@@ -1,0 +1,8 @@
+Reflexión Semana 11
+Estudiante: Jeimy Viviana Ladino Santiago
+
+Una plataforma tecnológica que promueve la participación ciudadana necesita una base de datos porque la información de las causas, los apoyos y los usuarios debe quedar organizada y disponible en el tiempo, no perderse ni depender de la memoria de una sola persona. Sin una estructura de datos clara, sería imposible saber cuántas personas apoyan una iniciativa o llevar un historial confiable de la participación comunitaria.
+
+La autenticación de usuarios es igual de importante porque permite saber quién hace qué dentro de la plataforma: quién crea una causa, quién la apoya y quién tiene permisos para administrar el sistema. Sin autenticación, cualquier persona podría manipular la información o hacerse pasar por otra, lo que rompería la confianza de la comunidad en la herramienta.
+
+Finalmente, la protección de la información es esencial porque una plataforma ciudadana maneja datos que pueden ser sensibles, y exponerlos sin cuidado puede generar riesgos reales para las personas involucradas, desde acoso hasta uso indebido de sus datos personales. Por eso, combinar base de datos, autenticación y protección de información no es un lujo técnico, sino una responsabilidad ética con la comunidad que confía en el sistema.

@@ -1,0 +1,18 @@
+Iteración simple
+Estudiante: Jeimy Viviana Ladino Santiago
+
+¿Qué 2 tareas del backlog harías primero?
+1. Como ciudadano quiero registrar una incidencia para dejar evidencia del caso.
+2. Como coordinador quiero recibir una alerta en Telegram para revisar un nuevo reporte apenas se registre.
+
+¿Por qué son las más importantes?
+Porque son la base de todo el flujo: si no existe una forma de registrar la incidencia, no hay nada que automatizar ni de qué avisar al coordinador. Y si el registro existe pero nadie se entera a tiempo, el reporte se puede quedar sin revisión. Estas dos tareas forman el ciclo mínimo funcional: se registra algo y alguien se entera para actuar.
+
+¿Qué significa para ti que una tarea esté "terminada"?
+Que la tarea no solo "funciona en mi máquina", sino que fue verificada, documentada y quedó disponible para el equipo, no solo en mi cabeza.
+
+Definición de terminado (mínimo 3 criterios):
+1. Funciona: la funcionalidad hace lo que dice la historia de usuario, probada manualmente al menos una vez.
+2. Fue probada: se verificó con un caso de ejemplo (dato no sensible) que el flujo completo se ejecuta sin errores.
+3. Quedó registrada en Git: el código y la evidencia (capturas, notas) fueron subidos al repositorio con un mensaje de commit claro.
+4. No expone datos sensibles: se revisó que no queden tokens, claves ni información personal real en los archivos publicados.

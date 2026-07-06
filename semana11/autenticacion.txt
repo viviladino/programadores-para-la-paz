@@ -1,0 +1,10 @@
+Autenticación
+Estudiante: Jeimy Viviana Ladino Santiago
+
+El login permite identificar a un usuario antes de darle acceso a ciertas funciones de la plataforma, verificando que la persona es quien dice ser mediante credenciales como usuario y contraseña.
+
+Algunas rutas deben estar protegidas porque pueden contener información privada, registros internos de la comunidad o acciones administrativas que no deberían estar disponibles para cualquier visitante, como eliminar una causa, ver datos de otros usuarios o gestionar reportes.
+
+Sin autenticación, cualquiera podría modificar o borrar información que no le pertenece, o acceder a datos que deberían ser reservados solo para el dueño de la cuenta o para coordinadores autorizados.
+
+No se deben exponer públicamente contraseñas (ni siquiera cifradas), documentos de identidad, teléfonos, direcciones exactas, tokens de sesión, claves de API ni ningún dato sensible de la comunidad. La autenticación, junto con el control de rutas, es la base para que una plataforma ciudadana sea confiable.

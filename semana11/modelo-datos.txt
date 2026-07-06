@@ -1,0 +1,39 @@
+Modelo de datos - Plataforma comunitaria
+Estudiante: Jeimy Viviana Ladino Santiago
+
+Entidad: Causa
+
+Campos principales:
+- id
+- titulo
+- descripcion
+- fecha
+- estado
+
+Propósito:
+Guardar las causas comunitarias que serán visibles en la plataforma, permitiendo que cualquier ciudadano pueda conocer las iniciativas activas y su estado actual.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id
+- causa_id
+- usuario_id
+- fecha
+
+Propósito:
+Registrar los apoyos que recibe cada causa para hacer seguimiento a la participación ciudadana y calcular el nivel de respaldo comunitario de cada iniciativa.
+
+
+Entidad: Usuario
+
+Campos principales:
+- id
+- nombre_usuario
+- correo
+- password_hash
+- rol
+
+Propósito:
+Identificar a las personas que interactúan con la plataforma (crear causas, apoyar, comentar), controlar el acceso mediante autenticación y diferenciar roles como ciudadano o coordinador. Nunca se guarda la contraseña en texto plano, solo su hash.

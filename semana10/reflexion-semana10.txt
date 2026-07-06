@@ -1,0 +1,8 @@
+Reflexión Semana 10
+Estudiante: Jeimy Viviana Ladino Santiago
+
+Las metodologías ágiles ayudan a organizar una comunidad porque permiten avanzar en pasos pequeños y verificables, en lugar de intentar resolver todo el problema de una sola vez. Un backlog priorizado deja claro qué se necesita primero y evita que el equipo se disperse en tareas secundarias antes de tener lo esencial funcionando. Definir historias de usuario obliga a pensar siempre desde la necesidad real de quien va a usar la solución, ya sea un ciudadano, un coordinador o un tutor.
+
+La automatización con herramientas como n8n permite que procesos repetitivos, como avisar que llegó un nuevo reporte, no dependan de que alguien esté revisando manualmente todo el tiempo. Esto libera tiempo del equipo para enfocarse en analizar los casos y tomar decisiones, en lugar de perseguir la información. Canales como Telegram funcionan bien para esto porque son accesibles, rápidos y ya son parte de la vida diaria de muchas personas en la comunidad.
+
+Al combinar estas prácticas con buenas costumbres de trazabilidad, como registrar todo en Git y evitar exponer datos sensibles, se logra un proceso de participación ciudadana más ordenado, transparente y seguro para todos los involucrados.
