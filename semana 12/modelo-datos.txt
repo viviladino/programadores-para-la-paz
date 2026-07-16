@@ -1,5 +1,5 @@
 Semana 12 - Modelo de datos simple
-Estudiante: Leider Dario Bolaño Agámez
+Estudiante: Jeimy Viviana Ladino Santiago
 
 Entidad: Causa
 - id: identificador único de la causa
