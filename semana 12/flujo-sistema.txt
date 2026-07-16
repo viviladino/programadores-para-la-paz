@@ -1,0 +1,18 @@
+Semana 12 - Flujo del sistema "Petición en 3 Clics"
+Estudiante: Leider Dario Bolaño Agámez
+
+Descripción del flujo, paso a paso:
+
+1. Un ciudadano de la comunidad ingresa a la plataforma y crea una nueva causa, escribiendo un título y una breve descripción del problema o necesidad que quiere visibilizar.
+
+2. La causa queda registrada en la base de datos, guardando un identificador único, el título, la descripción y la fecha de creación.
+
+3. Otros ciudadanos que visitan la plataforma pueden ver la causa publicada y dar clic en "Apoyar", registrando su nombre como muestra de respaldo (con el mínimo de datos personales necesarios).
+
+4. El sistema cuenta automáticamente el número total de apoyos recibidos por cada causa y lo muestra en tiempo real en la interfaz.
+
+5. Cuando la causa alcanza un número representativo de apoyos, o cuando el ciudadano creador lo solicita, el sistema genera automáticamente un documento PDF con la petición formal, incluyendo el título, la descripción y el número de apoyos.
+
+6. El sistema envía una notificación automática (por ejemplo mediante n8n o Telegram) informando que una nueva causa fue creada o que alcanzó cierto número de apoyos, sin exponer datos personales sensibles.
+
+7. El documento PDF generado queda disponible para ser descargado y presentado ante la entidad o autoridad correspondiente, dejando evidencia formal de la participación ciudadana.

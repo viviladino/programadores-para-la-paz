@@ -1,0 +1,23 @@
+Semana 12 - Automatización
+Estudiante: Leider Dario Bolaño Agámez
+
+Automatización propuesta usando n8n y Telegram:
+
+Evento que activa la automatización:
+Cuando se registra una nueva causa en la base de datos del sistema "Petición en 3 Clics".
+
+Mensaje que se envía:
+"📢 Nueva causa creada en la plataforma: revisa la petición y súmate con tu apoyo."
+Este mensaje se envía automáticamente a un canal o grupo de Telegram de la comunidad, a través de un flujo configurado en n8n que escucha los nuevos registros en la base de datos y dispara el envío del mensaje.
+
+Automatización adicional:
+Cuando una causa alcanza un número determinado de apoyos (por ejemplo 50), n8n dispara un segundo mensaje: "🎉 Una causa alcanzó 50 apoyos. Se generará el documento formal de la petición."
+
+Información que NO debe enviarse por seguridad:
+- Cédulas o números de identificación
+- Números de teléfono
+- Direcciones físicas o de correo electrónico
+- Comentarios sensibles o privados de los usuarios
+- Cualquier dato personal que no sea estrictamente necesario para mostrar el progreso público de la causa
+
+Solo se comparte información pública y general (nombre de la causa, número de apoyos, estado de la petición), protegiendo así la privacidad de los miembros de la comunidad.

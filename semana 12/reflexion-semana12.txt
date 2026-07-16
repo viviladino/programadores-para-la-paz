@@ -1,0 +1,7 @@
+Semana 12 - Reflexión final
+Estudiante: Leider Dario Bolaño Agámez
+Programa: Programadores Para La Paz
+
+¿Qué aprendí durante el curso sobre el uso de la tecnología para fortalecer la participación ciudadana y la organización comunitaria?
+
+Durante este curso aprendí que la tecnología puede ser una herramienta poderosa para acercar a las comunidades a la solución de sus propios problemas, dándoles voz y visibilidad de una manera organizada. Comprendí cómo se conectan piezas que antes veía por separado: un backend que procesa la información, una base de datos que la guarda de forma ordenada, un generador de documentos que convierte esa información en algo formal y presentable, y una automatización que informa a la comunidad en tiempo real. Entendí también la importancia de proteger los datos personales, minimizando lo que se registra y lo que se comparte, para que la tecnología sirva a la comunidad sin exponerla a riesgos. El proyecto "Petición en 3 Clics" me mostró que con herramientas sencillas se puede construir un puente entre la ciudadanía y las autoridades, facilitando que las causas justas tengan un canal claro para ser escuchadas. Como estudiante de Programadores Para La Paz, me llevo la certeza de que programar no es solo escribir código, sino construir soluciones responsables que aporten a una sociedad más justa, participativa y pacífica.

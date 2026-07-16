@@ -1,0 +1,23 @@
+Semana 12 - Modelo de datos simple
+Estudiante: Leider Dario Bolaño Agámez
+
+Entidad: Causa
+- id: identificador único de la causa
+- titulo: nombre corto que resume la petición
+- descripcion: texto donde se explica el problema o la necesidad de la comunidad
+- fecha: fecha en la que se creó la causa
+
+Para qué sirve:
+La entidad "Causa" representa el problema o petición que un ciudadano quiere visibilizar ante la comunidad o una autoridad. Es el punto central del sistema, ya que todo apoyo ciudadano y todo documento PDF generado se construyen a partir de esta información.
+
+Entidad: Apoyo
+- id: identificador único del apoyo
+- causa_id: referencia a la causa que se está apoyando
+- nombre: nombre de la persona que respalda la causa
+- fecha: fecha en la que se registró el apoyo
+
+Para qué sirve:
+La entidad "Apoyo" representa la participación ciudadana. Permite saber cuántas personas respaldan una causa y quiénes lo hicieron, sin necesidad de guardar datos sensibles como cédulas, teléfonos o direcciones. Es la base para calcular el número total de apoyos que se mostrará en la petición formal.
+
+Relación entre las entidades:
+Una Causa puede tener muchos Apoyos (relación uno a muchos), y cada Apoyo pertenece únicamente a una Causa, mediante el campo causa_id.
